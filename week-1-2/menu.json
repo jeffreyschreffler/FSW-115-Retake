@@ -1,0 +1,94 @@
+{
+    "appetizers": [
+        {
+            "name": "Cheese Sticks",
+            "ingredietns": [ "Mozzarella Cheese", "Bread Crumbs", "Egg", "Oil"],
+            "description": "Stringy Mozzarella and whole grain bread crumbs."
+        },
+        {
+            "name":"Zucchini Chips",
+            "ingredietns": ["Zucchini", "Bread Crumbs", "Egg", "Oil"],
+            "description": "Handed breaded with farm fresh zuccini."
+        },
+        {
+            "name": "Nachos and Cheese",
+            "ingredietns": ["Organic Corn Chips", "Nacho Cheese Sauce", "Black Olives"],
+            "description": "Fresh fried corn chips covered in a spice nacho sauce sprinkled with black olives"
+        }
+       
+    ],
+    "cold sandwiches": [
+       
+        {
+            "name": "Turkey Club ",
+            "ingredients": ["turkey", "bacon", "lettuce", "tomato", "mayonnaise", "bread"],
+            "description": "Healthy lean turkey on rye bread"
+        },
+        {
+            "name": "Cranberry-Walnut Chicken Salad Sandwiches",
+            "ingredients": ["Chicken", "Bread", "Cranberries", "Mayonnaise", "Lettuce"],
+            "description": "Slow cooked turkey with fresh veggies and berries"
+        },
+        {
+            "name": "Egg Salad Sandwich",
+            "ingredients": ["Eggs", "Mayonnaise", "Mustard", "Bread"],
+            "description": "Creamy eggsalad served between bread with a pickle"
+        }
+    ],
+
+    "hot sandwiches": [
+        {
+            "name": "Ruben",
+            "ingredients": ["Corned beef", "Sauerkraut", "Swiss cheese", "Rye bread", "Thousand Island dressing", "Russian dressing"],
+            "description": "North American grilled sandwich composed of corned beef, Swiss cheese, sauerkraut, and Thousand Island dressing or Russian dressing, grilled between slices of rye bread."
+        },
+        {
+            "name": "Ham and Swiss",
+            "ingredients": ["Smoked Ham", "Swiss Cheese", "Wheat Bread"],
+            "description": "Smoked ham and cheese served on wheat bread. Lettuce and tomato available on the side."
+        },
+        {
+            "name": "Grilled Cheese",
+            "ingredients": ["Sourdough bread", "American Cheese"],
+            "description": "Melted american cheese on sourdough"
+        }
+    ],
+
+    "deserts": [
+        {
+            "name": "Vanilla Milk Shake",
+            "ingredients": ["Vanilla Ice Cream", "Milk", "Whipped Cream", "Cherry"],
+            "description": "Vanilla milk shake topped with whip cream and cherry."
+        },
+        {
+            "name": "Banana Split",
+            "ingredients": ["Vanilla Ice Cream", "Banana", "Whipped Cream", "Chocolate Sauce", "Peanutes", "Cherry"],
+            "description": "Ice cream topped with banana and all the fixings"
+        },
+        {
+            "name": "Carmel Apple",
+            "ingredients": ["Apple", "Carmel", "Peanutes"],
+            "description": "Fresh crisp apple covered in carmel and peanuts."
+        }
+    ],
+
+    "drinks": [
+        {
+            "name": "Soda",
+            "ingredients": ["Water", "Sugar", "Natural Flavor"],
+            "description": "Home made fresh bubbly soda"
+        },
+        {
+            "name": "Apple Juice",
+            "ingredients": ["Apples", "Water"],
+            "description": "Homemade freshly squeezed apple juice"
+        },
+        {
+            "name": "Organic Lemonade",
+            "ingredients": ["Organic Lemons", "Water", "Cane Sugar"],
+            "description": "Homemade freshly squeezed lemonade."
+        }
+    ]
+    
+
+}
