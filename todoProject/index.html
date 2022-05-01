@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>To-Do</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">   
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script> 
+    </head>
+    <body>
+        <form name="todoForm">
+            <label for="title">Title:</label>
+            <input name='title' type="text" id="title">
+            <label for="price">Price:</label>
+            <input type="number" name='price' id="price">
+            <label for="description">Description:</label>
+            <input type="text" name='description' id="description">
+            <button id="submit">Add</button>
+            <button id="deleteBtn">Delete</button>
+        </form>
+        <div id="todoDisplay"></div>
+        <script src="app.js" async defer></script>
+        
+    </body>
+</html>
