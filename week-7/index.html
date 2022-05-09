@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div id="bobsBox">
+                <h1 id="bobsH1">Bobs Burgers</h1>
+                <p id="bobsNameLabel"></p>
+                <img id='bobsPlaceholderImg'src="./images/bobs-placeholder.jpeg" alt="Bobs Burgers Cast" height="250px">
+                <label for="bobsCharacterNumber" id="bobsCharacterNumberLabel">Enter Character Number</label>
+                <input type="number" id="bobsCharacterNumber">
+                <button id="getBobsBtn">Get Character</button>
+            </div>
+            <div id="todoBox">
+                <h1 id="todoH1">To Do</h1>
+                <div id="itemList">
+                    <form name="todoForm" id='todoForm'>
+                        <label for="title">Title:</label>
+                        <input name='title' type="text" id="title">
+                        <label for="price">Price:</label>
+                        <input type="number" name='price' id="price">
+                        <label for="description">Description:</label>
+                        <input type="text" name='description' id="description">
+                        <button id="submit">Add</button>
+                        <button id="deleteBtn">Delete</button>
+                    </form>
+                    <button id="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+        <script type="module" src="project.js" async defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+    </body>
+</html>
